@@ -33,7 +33,7 @@ namespace NBehave.Narrator.Framework
         public string Step
         {
             get { return _step; }
-            private set
+            set
             {
                 _step = value;
                 _matchableStep = value.RemoveFirstWord();

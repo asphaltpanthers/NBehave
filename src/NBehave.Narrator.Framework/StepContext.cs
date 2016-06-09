@@ -14,7 +14,7 @@ namespace NBehave.Narrator.Framework
     {
         public FeatureContext FeatureContext { get; private set; }
         public ScenarioContext ScenarioContext { get; private set; }
-        public string Step { get { return StringStep.Step; } }
+        public string Step { get { return StringStep.Step; } set { StringStep.Step = value; } }
 
         internal StringStep StringStep { get; set; }
 
